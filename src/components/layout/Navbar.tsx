@@ -19,8 +19,20 @@ export const Navbar = () => {
             isHome ? "bg-white/20" : "bg-white"
           } px-6`}
         >
-          <Logo />
-          <div className={isHome ? "text-white" : "text-black"}>Company</div>
+          <Link href={"/"}>
+            <Logo />
+          </Link>
+          <Link href="/company">
+            <div
+              className={`cursor-pointer transition-all hover:rounded-full hover:px-2 ${
+                isHome
+                  ? "text-white hover:bg-white/50"
+                  : "text-[#C79D58] hover:bg-gray-100"
+              }`}
+            >
+              Company
+            </div>
+          </Link>
 
           <Link href="/industries">
             <div
@@ -78,23 +90,30 @@ export const Navbar = () => {
               Newsroom
             </div>
           </Link>
-
-          <div className="flex gap-2">
+        </div>
+        <div className="flex gap-2">
+          <Link href="">
             <div
-              className={`flex h-[44px] w-[44px] items-center justify-center rounded-full ${
-                isHome ? "bg-white/20" : "bg-gray-200"
+              className={`flex h-[44px] w-[44px] cursor-pointer items-center justify-center rounded-full bg-red-500 transition-all ${
+                isHome
+                  ? "text-white hover:bg-white/50"
+                  : "text-[#C79D58] hover:bg-gray-100"
               }`}
             >
               <Logo />
             </div>
+          </Link>
+          <Link href="/contact">
             <div
-              className={`flex h-[44px] w-[44px] items-center justify-center rounded-full ${
-                isHome ? "bg-white/20" : "bg-gray-200"
+              className={`flex h-[44px] w-[44px] cursor-pointer items-center justify-center rounded-full bg-red-500 transition-all ${
+                isHome
+                  ? "text-white hover:bg-white/50"
+                  : "text-[#C79D58] hover:bg-gray-100"
               }`}
             >
               <Logo />
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

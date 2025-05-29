@@ -2,6 +2,7 @@ import CoreCareer from "@/components/industries/CoreCareer";
 import CoreCollaboration from "@/components/industries/CoreCollaboration";
 import CoreImages from "@/components/industries/CoreImages";
 import CoreIndustries from "@/components/industries/CoreIndustries";
+import CoreInfo from "@/components/industries/CoreInfo";
 
 export default function NewIndustries() {
   return (
@@ -10,6 +11,7 @@ export default function NewIndustries() {
         <CoreIndustries />
         <CoreImages />
         <CoreCollaboration />
+        <CoreInfo />
         <CoreCareer />
       </div>
     </div>

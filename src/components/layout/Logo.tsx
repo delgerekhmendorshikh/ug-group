@@ -11,10 +11,7 @@ interface LogoProps {
 export const Logo = ({ className }: LogoProps) => {
   return (
     <div className={cn("relative w-auto", className)}>
-      <Link
-        href={"/"}
-        className={cn("flex h-full items-center gap-x-1 sm:gap-x-3")}
-      >
+      <div className={cn("flex h-full items-center gap-x-1 sm:gap-x-3")}>
         {/* <Image
           src={"/assets/aboutMinepro/logo2.svg"}
           width={125}
@@ -37,7 +34,7 @@ export const Logo = ({ className }: LogoProps) => {
           height={82}
         /> */}
         <img src="/assets/Logo.png" className="h-[25px] " alt="" />
-      </Link>
+      </div>
     </div>
   );
 };

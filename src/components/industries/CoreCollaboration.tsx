@@ -1,6 +1,8 @@
+import Image from "next/image";
+
 export default function CoreCollaboration() {
   return (
-    <div className="">
+    <div className="flex flex-col gap-[80px]">
       <div className="relative text-white">
         <div className="absolute w-full">
           <img

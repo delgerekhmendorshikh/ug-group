@@ -24,7 +24,6 @@ export default function CollaborationPartnerships() {
               className="rounded-full"
             />
           </div>
-
           <div className="flex flex-col gap-3 text-black/65">
             <p>Mbank</p>
             <p>
