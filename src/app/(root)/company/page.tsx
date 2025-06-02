@@ -1,3 +1,4 @@
+import CompanyDocument from "@/components/company/CompanyDocument";
 import CompanyFundamentals from "@/components/company/CompanyFundamentals";
 import CompanyGroup from "@/components/company/CompanyGroup";
 import CompanyImages from "@/components/company/CompanyImages";
@@ -16,6 +17,7 @@ export default function Company() {
         <CompanyStuff />
         <CompanyNumbers />
         <CompanyLeadership />
+        <CompanyDocument />
         <CompanyInfo />
         <CompanyGroup />
         <CompanyPartnership />

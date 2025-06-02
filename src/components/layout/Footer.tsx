@@ -1,6 +1,7 @@
 import { FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
 import { ArrowUp } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -12,9 +13,11 @@ export const Footer = () => {
           width={59}
           height={75}
         />
-        <button className="rounded-full bg-[#b99860] px-6 py-2 text-white">
-          Let’s Collaborate
-        </button>
+        <Link href="/contact">
+          <button className="rounded-full bg-[#b99860] px-6 py-2 text-white">
+            Let’s Collaborate
+          </button>
+        </Link>
       </div>
       <div className="mt-6 grid h-[325px] w-full grid-cols-4 justify-between gap-8">
         <div className="text-left text-[14px]">

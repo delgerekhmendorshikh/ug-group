@@ -37,6 +37,67 @@ export default function CoreInfo() {
           height={200}
           className="rounded-[20px] object-contain"
         />
+        <div className="flex justify-between text-[14px] text-[#C79D58]">
+          <div className="flex gap-[10px]">
+            <Image
+              src="/assets/home/vector.png"
+              alt="skibidi"
+              width={15}
+              height={15}
+              className="rounded-[20px] object-contain"
+            />
+            <p>+976 77712111</p>
+          </div>
+          <div className="flex gap-[10px]">
+            <Image
+              src="/assets/home/vector.png"
+              alt="skibidi"
+              width={15}
+              height={15}
+              className="rounded-[20px] object-contain"
+            />
+            <p>marketing@urangan.mn</p>
+          </div>
+          <div className="flex gap-[10px]">
+            <Image
+              src="/assets/home/vector.png"
+              alt="skibidi"
+              width={15}
+              height={15}
+              className="rounded-[20px] object-contain"
+            />
+            <p>Mbankarena.mn</p>
+          </div>
+        </div>
+        <div className="flex justify-center gap-[8px]">
+          <div className="w-[30px] rounded-full border border-[1px] border-black/20 p-[8px]">
+            <Image
+              src="/assets/home/vector.png"
+              alt="skibidi"
+              width={16}
+              height={16}
+              className=""
+            />
+          </div>
+          <div className="w-[30px] rounded-full border border-[1px] border-black/20 p-[8px]">
+            <Image
+              src="/assets/home/vector.png"
+              alt="skibidi"
+              width={16}
+              height={16}
+              className=""
+            />
+          </div>
+          <div className="w-[30px] rounded-full border border-[1px] border-black/20 p-[8px]">
+            <Image
+              src="/assets/home/vector.png"
+              alt="skibidi"
+              width={16}
+              height={16}
+              className=""
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
